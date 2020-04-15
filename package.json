@@ -1,0 +1,19 @@
+{
+  "name": "speedchatapp",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.16.x"
+  },
+  "description": "A simple and quick tutorial to implement a chat using the MERN stack.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently --kill-others \"heroku local\"",
+    "postinstall": "npm install --prefix ./server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
